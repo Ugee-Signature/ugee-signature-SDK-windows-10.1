@@ -1,0 +1,52 @@
+opencv_core231.dll: 
+  KERNEL32.dll 
+  MSVCP100.dll  
+  MSVCR100.dll
+
+opencv_highgui231.dll : 
+    KERNEL32.dll
+    USER32.dll
+    GDI32.dll
+    ole32.dll
+    OLEAUT32.dll
+    ADVAPI32.dll
+    opencv_core231.dll
+    COMCTL32.dll
+    AVIFIL32.dll
+    MSVFW32.dll
+    AVICAP32.dll
+    MSVCP100.dll
+    MSVCR100.dll
+
+
+opencv_imgproc231.dll:
+    opencv_core231.dll
+    MSVCP100.dll
+    tbb.dll
+    MSVCR100.dll
+    KERNEL32.dll
+
+HWUGUtil: 
+mscoree.dll
+
+UgeeSignFIDCam.dll：
+   opencv_core231.dll
+    opencv_highgui231.dll
+    KERNEL32.dll
+    USER32.dll
+    GDI32.dll
+    MSIMG32.dll
+    COMDLG32.dll
+    WINSPOOL.DRV
+    ADVAPI32.dll
+    SHELL32.dll
+    COMCTL32.dll
+    SHLWAPI.dll
+    ole32.dll
+    OLEAUT32.dll
+    gdiplus.dll
+    SETUPAPI.dll
+    WS2_32.dll
+    OLEACC.dll
+    IMM32.dll
+    WINMM.dll

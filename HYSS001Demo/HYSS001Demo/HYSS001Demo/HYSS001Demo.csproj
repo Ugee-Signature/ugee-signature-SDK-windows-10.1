@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1869B600-2161-4961-BEBA-77547008BB64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HYSS001Demo</RootNamespace>
+    <AssemblyName>HYSS001Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hwug.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HWUGUtil">
+      <HintPath>..\..\..\HWUGUtil\HWUGUtil\bin\Release\HWUGUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmADV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmADV.Designer.cs">
+      <DependentUpon>FrmADV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvaluate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvaluate.Designer.cs">
+      <DependentUpon>FrmEvaluate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPen.Designer.cs">
+      <DependentUpon>FrmPen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShow.Designer.cs">
+      <DependentUpon>FrmShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDCard.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ugee.cs" />
+    <Compile Include="Win32.cs" />
+    <EmbeddedResource Include="FrmADV.resx">
+      <DependentUpon>FrmADV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvaluate.resx">
+      <DependentUpon>FrmEvaluate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPen.resx">
+      <DependentUpon>FrmPen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShow.resx">
+      <DependentUpon>FrmShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDCard_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDCard_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\readIDCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takePhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeCamera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEvaluate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnStopEvaluate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_aa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_DD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_EE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_FF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openCamera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluate_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluateBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCompare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hwug.ico" />
+    <None Include="Resources\signDemo.jpg" />
+    <None Include="Resources\SetResolution.png" />
+    <None Include="Resources\SetLRMirror.png" />
+    <None Include="Resources\GetResolution.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

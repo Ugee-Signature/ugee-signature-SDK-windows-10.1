@@ -1,0 +1,23 @@
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmADV.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmEvaluate.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmMain.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmPen.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmShow.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.csproj.GenerateResource.Cache
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\bin\Release\HYSS001Demo.exe
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\bin\Release\HYSS001Demo.pdb
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.Properties.Resources.resources
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.exe
+F:\VX\WeChat Files\wxid_v9s7b3a41qqc22\FileStorage\File\2025-01\HYSS001Demo(1)\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.pdb
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.exe
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.pdb
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\bin\Release\HYSS001Demo.exe
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\bin\Release\HYSS001Demo.pdb
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.csprojResolveAssemblyReference.cache
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmADV.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmEvaluate.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmMain.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmPen.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.FrmShow.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.Properties.Resources.resources
+G:\行业产品相关文档new\产品相关文档\SDK集合\UG1070\CS\HYSS001Demo\HYSS001Demo\HYSS001Demo\obj\Release\HYSS001Demo.csproj.GenerateResource.Cache
